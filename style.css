@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(138, 182, 190),rgb(79, 71, 190));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #863636, blue;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 100%;
+    max-width: 430px;
+    background-color: aquamarine;
+    background: linear-gradient(rgb(139, 132, 132),rgb(50, 85, 160));
+}
+.form{
+    padding: 2rem; 
+}
+.form header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 16px;
+    color: #fff;
+}
+.form input{
+   outline : none;
+    width: 100%;
+    padding: 1.2rem;
+    margin: 0 0 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.form input:hover{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+ .form a{
+    color: hsl(313, 89%, 46%);
+    text-decoration: none;
+ }
+ .form a:hover{
+    text-decoration: underline;
+ }
+
+.form label{
+    color: #e00d5e;
+    cursor: pointer;
+}
+.form label:hover{
+    color: #e00d65;
+}
+.signup {
+    text-align: center;
+    color: #2774f0;
+}
+input{
+    width: 100%;
+    outline : none;
+    width: 100%;
+    padding: 1.2rem;
+    margin: 0 0 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
